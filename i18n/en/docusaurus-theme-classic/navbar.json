@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "une meta",
+    "description": "The title in the navbar"
+  },
+  "item.label.官网": {
+    "message": "官网",
+    "description": "Navbar item with label 官网"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
