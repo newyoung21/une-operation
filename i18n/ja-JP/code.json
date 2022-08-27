@@ -249,5 +249,20 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "Daily Spotlights": {
+    "message": "デイリーSpotlights",
+    "description": "d title"
+  },
+  "UneMeta is a curated social and NFT market space for quality and established IPs and Icons, aiming to create higher quality experience with NFT to everyone.": {
+    "message": "UneMetaは、品質とIPとアイコンの確立のためのキュレーションされた社会的およびNFT市場スペースです。 NFTでより質の高い体験を皆様に提供することを目指しています。",
+    "description": "about me"
+  },
+  "UneMeta Club is the research arm of UneMeta, providing the latest insights and updates on NFT & Web3.": {
+    "message": "UneMeta ClubはUneMetaの研究部門であり、NFTとWeb3に関する最新の洞察と最新情報を提供しています。",
+    "description": "club"
+  },
+  "Blog": {
+    "message": "Blog45"
   }
 }

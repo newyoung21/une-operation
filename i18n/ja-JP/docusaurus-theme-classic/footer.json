@@ -13,14 +13,14 @@
   },
   "link.item.label.Discord": {
     "message": "Discord",
-    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
+    "description": "The label of footer link with label=Discord linking to http://discord.gg/unemeta"
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/docusaurus"
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/Une_Metaverse"
   },
   "link.item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
   "link.item.label.GitHub": {
@@ -28,7 +28,11 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
   },
   "copyright": {
-    "message": "Copyright © 2022 My Project, Inc. Built with Docusaurus.",
+    "message": "© 2022 UneMeta. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Website": {
+    "message": "Website",
+    "description": "The label of footer link with label=Website linking to https://unemeta.com/"
   }
 }

@@ -251,15 +251,15 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "Daily Spotlights": {
-    "message": "Daily Spotlights",
+    "message": "每日焦點",
     "description": "d title"
   },
   "UneMeta is a curated social and NFT market space for quality and established IPs and Icons, aiming to create higher quality experience with NFT to everyone.": {
-    "message": "UneMeta is a curated social and NFT market space for quality and established IPs and Icons, aiming to create higher quality experience with NFT to everyone.",
+    "message": "UneMeta 是一個精心策劃的社交和 NFT 市場空間，用於質量和已建立的 IP 和圖標，旨在為每個人創造更高質量的 NFT 體驗。",
     "description": "about me"
   },
   "UneMeta Club is the research arm of UneMeta, providing the latest insights and updates on NFT & Web3.": {
-    "message": "UneMeta Club is the research arm of UneMeta, providing the latest insights and updates on NFT & Web3.",
+    "message": "UneMeta Club 是 UneMeta 的研究機構，提供有關 NFT 和 Web3 的最新見解和更新。",
     "description": "club"
   },
   "Blog": {

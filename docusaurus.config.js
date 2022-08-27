@@ -6,32 +6,37 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'UneMeta',
   tagline: 'Dinosaurs are cool',
-  url: 'https://une-operation.pages.dev',
-  baseUrl: '/',
+  url: 'https://newyoung21.github.io',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  deploymentBranch: 'gh-pages',
+  githubHost: 'github.com',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'newyoung21', // Usually your GitHub org/user name.
+  projectName: 'une-operation', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja-JP'],
+    locales: ['en', 'ja-JP', 'zh-TW'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       'ja-JP': {
-        label: 'Japanese',
+        label: '日本语',
       },
+      'zh-TW': {
+        label: '繁体中文',
+      }
     },
   },
 
@@ -69,18 +74,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'une meta',
         logo: {
-          alt: 'My Site Logo',
           src: 'https://image.unemeta.com/590b82a4dafb5ee93605983d7203da58.png',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: 'https://unemeta.com',
             position: 'left',
-            label: '官网',
+            label: 'Markerplace',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
            // Language
           {
             type: 'localeDropdown',
@@ -104,34 +107,34 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Website',
+                href: 'https://unemeta.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/Une_Metaverse',
+              },
+              {
+                label: 'Discord',
+                href: 'http://discord.gg/unemeta',
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2022 UneMeta. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

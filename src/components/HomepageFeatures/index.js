@@ -2,36 +2,44 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   {
     title: 'Daily Spotlights',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    date: '2022-08-26',
+  },
+  {
+    title: 'Daily Spotlights',
+    date: '2022-08-25',
+  },
+  {
+    title: 'Daily Spotlights',
+    date: '2022-08-24',
+  },
+  {
+    title: 'Daily Spotlights',
+    date: '2022-08-23',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, date}) {
   return (
    
     <div className={clsx('col col--6', styles.feature_item)}>
-      <Link to="/blog" className={styles.feature_item_a}>
-        <div className="row">
-          <div className={clsx('text--center col col--7')}>
-            <Svg className={styles.featureSvg} role="img" />
-          </div>
-          <div className={clsx("padding-horiz--md col col--5", styles.content_col)}>
-            <h3>{title}</h3>
+      <Link to={`/blog/${date}`} className={styles.feature_item_a}>
+        <div className={clsx('row', styles.feature_item_row2)}>
+          <div className={clsx("padding-horiz--md col col--6", styles.content_col)}>
+            <h3 className={styles.i_title}>{title}</h3>
             {/* <p className={styles.dec}>{description}</p> */}
-            <div>
-              <div className={styles.name}>ume</div>
-              <div className={styles.date}>2022.08.15</div>
+            <div className={styles.i_footer}>
+              <div className={styles.name}>une</div>
+              <div className={styles.date}>{date}</div>
             </div>
+          </div>
+          <div className={clsx('text--center col col--6',  styles.banner)}>
+            <img src={useBaseUrl('/img/home/banner.png')} alt="" />
           </div>
         </div>
       </Link>
@@ -53,8 +61,12 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className={styles.title}>精选内容</div>
-        <div className="row">
+        <div className={styles.title}>
+        <Translate description="d title">
+          Daily Spotlights
+        </Translate>
+        </div>
+        <div className={clsx('row', styles.feature_item_row)}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

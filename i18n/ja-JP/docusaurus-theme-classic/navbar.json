@@ -1,14 +1,14 @@
 {
-  "title": {
-    "message": "une meta",
-    "description": "The title in the navbar"
-  },
   "item.label.官网": {
     "message": "官网",
     "description": "Navbar item with label 官网"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "ブログ",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Markerplace": {
+    "message": "マーカー配置",
+    "description": "Navbar item with label Markerplace"
   }
 }
