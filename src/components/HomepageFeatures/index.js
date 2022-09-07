@@ -8,19 +8,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 const FeatureList = [
   {
     title: 'Daily Spotlights',
+    date: '2022-09-01',
+  },
+  {
+    title: 'Daily Spotlights',
+    date: '2022-08-31',
+  },
+  {
+    title: 'Daily Spotlights',
     date: '2022-08-26',
   },
   {
     title: 'Daily Spotlights',
     date: '2022-08-25',
-  },
-  {
-    title: 'Daily Spotlights',
-    date: '2022-08-24',
-  },
-  {
-    title: 'Daily Spotlights',
-    date: '2022-08-23',
   },
 ];
 

@@ -46,11 +46,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -78,12 +79,18 @@ const config = {
           src: 'https://image.unemeta.com/590b82a4dafb5ee93605983d7203da58.png',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: 'https://unemeta.com',
+            type: 'doc',
+            label: 'Event',
             position: 'left',
-            label: 'Markerplace',
+            docId: 'event',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   to: 'https://unemeta.com',
+          //   position: 'left',
+          //   label: 'Marketplace',
+          // },
            // Language
           {
             type: 'localeDropdown',
@@ -106,10 +113,10 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Website',
-                href: 'https://unemeta.com/',
-              },
+              // {
+              //   label: 'Website',
+              //   href: 'https://unemeta.com/',
+              // },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/Une_Metaverse',
