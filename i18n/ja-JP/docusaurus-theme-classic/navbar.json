@@ -10,5 +10,9 @@
   "item.label.Markerplace": {
     "message": "マーカー配置",
     "description": "Navbar item with label Markerplace"
+  },
+  "item.label.Event": {
+    "message": "イベント",
+    "description": "Navbar item with label Event"
   }
 }

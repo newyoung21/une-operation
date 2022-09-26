@@ -33,20 +33,37 @@ Points for each listing will be calculated based on the ranking of the collectio
 | NFT collection ranking (past 24 hr volume) | Points per valid listed NFT |
 | ------------------------------------------ | --------------------------- |
 | “SS” – top 1 to 5 collections              | 200                         |
-| “S” – top 6 to 24 collections              | 100                         |
+| “S” – top 6 to 25 collections              | 100                         |
 | “N” – top 26 to 100 collections            | 50                          |
 
 Strategic Partner Collection
 
-| NFT Collections       | Points per valid listed NFT |
-| --------------------- | --------------------------- |
-| Bored Ape Yacht Club  | 300                         |
-| Moon Bird             | 300                         |
-| MIMIC SHHANS          | 200                         |
-| Ultiverse             | 200                         |
-| Otherdeed             | 200                         |
-| Mutant Ape Yacht Club | 200                         |
-| SIMEJI                | 200                         |
+Special Reward Collections
+
+| NFT Collections           | Points per valid listed NFT |
+| ------------------------- | --------------------------- |
+| Bored Ape Yacht Club      | 300                         |
+| MIMIC SHHANS              | 300                         |
+| Mutant Ape Yacht Club     | 300                         |
+| SIMEJI                    | 300                         |
+| Otherdeed for Otherside   | 300                         |
+| Azuki                     | 300                         |
+| Moonbird                  | 300                         |
+| CLONE-X                   | 300                         |
+| Doodles                   | 300                         |
+| Pudgy Penguins            | 300                         |
+| Karafuru                  | 300                         |
+| Digidaigaku Genesis       | 300                         |
+| Meebits                   | 300                         |
+| Dr. Ji Official           | 300                         |
+| Ultiverse- Electric Sheep | 200                         |
+| mfers                     | 200                         |
+| GoblinTown.wtf            | 200                         |
+| Cheer UP Official         | 200                         |
+| Elemental by Fang Lijun   | 200                         |
+| Fragments By James Jean   | 200                         |
+
+
 
 ## How to redeem point for cash and other rewards?
 
