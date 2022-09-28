@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkune_operation=self.webpackChunkune_operation||[]).push([[159],{2227:e=>{e.exports=JSON.parse('{"permalink":"/docs/ja-JP/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/docs/ja-JP/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

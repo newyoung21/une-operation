@@ -12,13 +12,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <img className="gif-img" src={useBaseUrl('/img/docs/event/1280X1280.jpeg')} />
 </figure>
 
+
 歡迎你成為Une的好朋友！
 
-8月UneMeta 平臺正式上線，希望大家能通過自己的行動來支持我們，UneMeta為大家準備了10萬 USDT，NFT，Whitelist，BTC,ETH以及實物獎品作為本次活動的獎勵，快來參加吧！
+9月UneMeta 平臺正式上線，希望大家能通過自己的行動來支持我們，UneMeta為大家準備了10萬 USDT，NFT，Whitelist，BTC,ETH以及實物獎品作為本次活動的獎勵，快來參加吧！
 
 上架NFT或邀請好友上架NFT，賺取積分，通過積分兌換100 USDT（中獎率100%）
 
-活動時間：9月27- 9月30
+活動時間：9.27- 9.30
 
 
 

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkune_operation=self.webpackChunkune_operation||[]).push([[314],{2075:e=>{e.exports=JSON.parse('{"permalink":"/docs/zh-TW/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/docs/zh-TW/blog","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
