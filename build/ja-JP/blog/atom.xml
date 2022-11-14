@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newyoung21.github.io/docs/ja-JP/blog</id>
-    <title>UneMeta Blog</title>
+    <title> UneMeta Blog</title>
     <updated>2022-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://newyoung21.github.io/docs/ja-JP/blog"/>
-    <subtitle>UneMeta Blog</subtitle>
+    <subtitle> UneMeta Blog</subtitle>
     <icon>https://newyoung21.github.io/docs/ja-JP/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[2022-09-01-Spotlights]]></title>

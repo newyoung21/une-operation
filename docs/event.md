@@ -1,6 +1,7 @@
 ---
 slug: 'event'
 id: event
+title: Event
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

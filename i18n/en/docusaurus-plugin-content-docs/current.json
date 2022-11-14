@@ -14,5 +14,9 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "title": {
+    "message": "Insight",
+    "description": "The title for the blog used in SEO"
   }
 }

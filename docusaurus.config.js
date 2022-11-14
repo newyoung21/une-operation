@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'UneMeta',
+  title: ' UneMeta',
   tagline: 'Dinosaurs are cool',
   url: 'https://newyoung21.github.io',
   baseUrl: '/docs/',
@@ -85,7 +85,7 @@ const config = {
             position: 'left',
             docId: 'event',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left',  description: "Insight｜UneMeta"},
           // {
           //   to: 'https://unemeta.com',
           //   position: 'left',
